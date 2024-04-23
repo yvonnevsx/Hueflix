@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation1" />
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="HueFlix"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="MOOD TO MOVIE"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTagline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Don't waste your time searching\nanymore for something to watch"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/bubbleView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/bubble_image" />
+
+    <ImageView
+        android:id="@+id/bubbleView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bubble_image"
+        android:layout_below="@id/textViewDescription"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/bubbleView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bubble_image"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/bubbleView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/bubble_image" />
+
+    <ImageView
+        android:id="@+id/imageViewShake"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textViewDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_touch"
+        android:tint="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/textNavDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewShake"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Touch to continue"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</RelativeLayout>

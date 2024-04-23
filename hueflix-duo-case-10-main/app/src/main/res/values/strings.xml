@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HueFlix</string>
+    <string name="title"><b>HueFlix</b></string>
+    <string name="returnButton">Return</string>
+    <string name="previous_movie" />
+    <string name="next_movie" />
+    <string name="back_button_description">back arrow</string>
+</resources>
