@@ -2,6 +2,9 @@
 
 HueFlix is a mobile application that recommends movies to the user based on their current mood, expressed in colors!
 
+## Demo
+https://www.youtube.com/watch?v=vE5DqjN0oBo
+
 
 ## Features
 
